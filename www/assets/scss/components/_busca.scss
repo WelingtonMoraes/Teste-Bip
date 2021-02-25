@@ -1,0 +1,30 @@
+.busca{
+    max-width: 500px;
+    margin: 100px auto;
+
+    &__content{
+        border: 1px solid #1DA1F2;
+        border-radius: 20px;
+
+        input[type=text]{
+            border-radius: 30px;
+            width: 80%;
+            margin: 0;
+            border-bottom: 0px;
+            padding: 0px 15px;
+
+            &:focus{
+                box-shadow: 0 0 0 0 transparent !important;
+                border-bottom: 0px !important;
+            }
+        }
+
+        button[type=submit]{
+            border-radius: 30px;
+            width: 10%;
+            margin: 0;
+            border: 0px;
+            cursor: pointer;
+        }
+    }
+}
